@@ -1,9 +1,13 @@
 #NguyenHuuTung(tdev)
 
 # Run app
-# B1
+# b1
+git clone https://github.com/Horus-N/Nike.com_dev.git
+# b2
+cd Nike.com_dev
+# b3
 npm install jquery popper.js
-# B2
+# B4
 npx json-server --watch db.json
-# B3
+# B5
 npm start
