@@ -1,4 +1,5 @@
 #NguyenHuuTung(tdev)
+#show một số chức năng của dự án 
 https://github.com/Horus-N/Nike.com_dev/assets/138306127/f7db0676-5f04-4b74-acd9-df7f5b7aaba6
 # Run app
 # b1
