@@ -1,0 +1,36 @@
+.content {
+    margin: 0 48px;
+}
+
+.content-item {
+    margin-bottom: 84px;
+}
+
+.content-title {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.content-media {
+    overflow: hidden;
+}
+
+.content-media-lg {
+    height: 700px;
+}
+
+.content-media-small {
+    height: 540px;
+}
+
+.content-media-item {
+    padding: 12px;
+    height: 100%;
+}
+
+.content-menu {
+    position: relative;
+    background-color: var(--white-color);
+}

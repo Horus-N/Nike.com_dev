@@ -1,0 +1,165 @@
+.login {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.form-login {
+    background-color: #fff;
+    margin: auto;
+    width: 380px;
+    padding: 28px;
+    z-index: 1;
+}
+
+.form-login-icon {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.form-login-icon.show {
+    display: block;
+}
+
+.form-login-icon.hidden {
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.logo-nike {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-nike>svg {
+    width: 60px;
+    height: 60px;
+}
+
+.login-title {
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    color: var(--text-color);
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.login-description {
+    font-size: 1.4rem;
+    color: #8d8d8d;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.form-login-control {
+    padding: 0 16px 3px;
+}
+
+.form-login-control.error {
+    border-color: red;
+}
+
+.form-login-control::placeholder {
+    font-size: 1.5rem;
+}
+
+.form-login-control:focus {
+    border-color: #e5e5e5 !important;
+    box-shadow: none !important;
+}
+
+.form-login-control:focus::placeholder {
+    color: #d2cfcf;
+}
+
+.message-error {
+    display: block;
+    color: #fe0000;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding: 10px 0;
+}
+
+
+.form-login-submit {
+    width: 100%;
+    height: 40px;
+    margin-top: 24px;
+    background-color: #000;
+    border: 1px solid #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.form-login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc((100% - 24px)/ 2);
+    height: 40px;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    line-height: 18px;
+    color: #8d8d8d;
+    border-radius: 4px;
+
+}
+
+.form-icon {
+    display: none;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.form-login-btn.active {
+    border-color: var(--text-color);
+    color: var(--text-color);
+}
+
+.form-login-btn.active>.form-icon {
+    display: block !important;
+}
+
+.form-login-btn:first-child {
+    margin-right: 24px;
+}
+
+.form-privacy,
+.form-redirect {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-top: 12px;
+    color: #8d8d8d;
+}
+
+.form-redirect-link {
+    margin-left: 8px;
+    color: var(--text-color);
+    text-decoration: underline;
+    padding: 3px;
+}
+
+.form-redirect-link:hover {
+    color: blue;
+}

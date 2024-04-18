@@ -1,0 +1,22 @@
+.input-control {
+    height: 40px;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    line-height: 18px;
+    color: #8d8d8d;
+    padding: 0 16px;
+}
+
+.input-control::placeholder {
+    font-size: 1.5rem;
+}
+
+.input-control:focus {
+    border-color: #e5e5e5 !important;
+    box-shadow: none !important;
+}
+
+.input-control:focus::placeholder {
+    color: #d2cfcf;
+}

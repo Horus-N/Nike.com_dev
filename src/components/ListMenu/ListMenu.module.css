@@ -1,0 +1,49 @@
+.list-menu {
+    display: flex;
+    flex-direction: column;
+    animation: showListMenu 0.2s linear;
+}
+
+.list-menu.h-full {
+    height: 100vh;
+}
+
+.list-menu.hidden {
+    display: none;
+    transform: translateY(-30px);
+    opacity: 1;
+    animation: hiddenListMenu 0.2s linear;
+}
+
+@keyframes showListMenu {
+    50% {
+        transform: translateY(-20px);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes hiddenListMenu {
+    50% {
+        transform: translateY(-20px);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+}
+
+.list-body {
+    background-color: #fff;
+}
+
+.list-overlay {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}

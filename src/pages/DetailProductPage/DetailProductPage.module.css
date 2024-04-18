@@ -1,0 +1,304 @@
+.content-detail {
+    margin: 48px 0;
+}
+
+.content-detail-left {
+    padding: 0;
+}
+
+.content-detail-imgsDetail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: 700px;
+    padding: 0 8px;
+}
+
+.content-detail-imgsDetail-item {
+    height: 80px !important;
+    width: 80px !important;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.content-detail-imgsDetail::-webkit-scrollbar {
+    width: 0.5rem;
+
+    /* Chiều rộng của thanh trượt (có thể thay đổi) */
+}
+
+.content-detail-imgsDetail::-webkit-scrollbar-thumb {
+    background-color: #f5f5f5;
+    /* Màu của "nút" thanh trượt (có thể thay đổi) */
+    border-radius: 4px;
+    /* Để làm tròn các góc của "nút" thanh trượt */
+}
+
+.content-detail-imgsDetail-item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: rgb(245, 245, 245);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.content-detail-imgsDetail-item>img:hover {
+    filter: brightness(85%);
+}
+
+.content-detail-imgProduct {
+    position: relative;
+    background: rgb(255, 255, 255);
+    height: 700px;
+    padding: 0 8px;
+}
+
+.content-detail-imgProduct-img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.content-detail-imgProduct-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-detail-control {
+    position: absolute;
+    display: flex;
+    right: 20px;
+    bottom: 20px;
+}
+
+.content-detail-control-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    border: none;
+    padding-top: 2px;
+    margin-right: 8px;
+}
+
+.content-detail-control-item:hover {
+    background-color: #e5e5ee;
+}
+
+.content-detail-right {
+    padding-left: 96px;
+    padding-right: 8px;
+}
+
+.content-detail-infor {
+    margin-bottom: 28px;
+}
+
+.content-detail-title {
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+}
+
+.content-detail-subTitle {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.content-detail-price {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.content-detail-imgSimilar {
+    margin-bottom: 20px;
+}
+
+.content-detail-imgSimilar-title {
+    font-size: 1.6rem;
+    font-weight: 400;
+    user-select: none;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.content-detail-imgSilimar-item {
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: hidden;
+    height: 84.75px;
+    margin-bottom: 8px;
+}
+
+.content-detail-imgSilimar-item>.content-detail-imgSilimar-img {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content-detail-imgSilimar-img.active,
+.content-detail-imgSilimar-item>img:hover {
+    border-color: var(--primary-color);
+}
+
+.content-detail-selectSize {
+    margin-bottom: 20px;
+}
+
+.content-detail-selectSize-list {
+    padding: 0;
+}
+
+.content-detail-quantity-title,
+.content-detail-selectSize-title {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    user-select: none !important;
+}
+
+.content-detail-selectSize-item {
+    padding: 0 4px;
+    margin-bottom: 8px;
+}
+
+.content-detail-selectSize-btn {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #CACACB;
+    border-radius: 4px;
+    padding-bottom: 4px;
+    background-color: var(--white-color);
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.content-detail-selectSize-btn.active,
+.content-detail-selectSize-btn:hover {
+    border-color: var(--primary-color);
+}
+
+.content-detail-quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content-detail-quantity-title {
+    margin-right: 10px;
+}
+
+.content-detail-quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.content-detail-quantity-control-btn {
+    font-size: 3.2rem;
+    width: 40px;
+    height: 28px;
+    padding-bottom: 10px;
+    background-color: var(--white-color);
+    border: 1px solid #CACACB;
+    color: #CACACB;
+    font-weight: 400;
+}
+
+.content-detail-quantity-control-btn:hover {
+    color: var(--text-color);
+}
+
+.content-detail-quantity-control-btn.disable:hover {
+    color: #CACACB;
+}
+
+
+.content-detail-quantity-control-btn:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.content-detail-quantity-control-btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.content-detail-quantity-value {
+    height: 28px;
+    border: 1px solid #CACACB;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding: 0 8px;
+    width: 110px;
+}
+
+.content-detail-btn-group {
+    margin-top: 10px;
+}
+
+
+.content-detail-btn-addFavorite.active {
+    border-color: red;
+    color: red;
+}
+
+.content-detail-btn-addFavorite.active>span>svg {
+    color: red;
+}
+
+
+.content-detail-feature {
+    margin-top: 28px;
+    padding: 0 8px;
+}
+
+.content-detail-reviews {
+    padding: 0 8px;
+}
+
+.content-detail-reviews-btnToggle,
+.content-detail-feature-title {
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    padding: 16px 0;
+    background-color: transparent;
+}
+
+.content-feature-icon {
+    padding-bottom: 4px;
+}
+
+.content-detail-feature-subtitle {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+
+.content-detail-feature-list {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.content-detail-feature-list-item {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}

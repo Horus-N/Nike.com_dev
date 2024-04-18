@@ -1,0 +1,83 @@
+.footer {
+    background-color: #111;
+    min-height: 200px;
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 40px 40px 0;
+}
+
+.footer-top-left {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex: 1;
+}
+
+.footer-top-nav-item {
+    line-height: 2.4rem;
+    margin-bottom: 3px;
+}
+
+.footer-top-menu-link {
+    color: #7e7e7e;
+    font-size: 1.2rem;
+}
+
+.footer-top-menu-item {
+    background-color: transparent;
+    border: none;
+    padding: 6px 0;
+}
+
+.footer-top-menu-title,
+.footer-top-nav-link {
+    display: block;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'NikeTG';
+    padding: 4px 0;
+    margin: 0;
+    line-height: 3.2rem;
+}
+
+.footer-top-menu-link:hover,
+.footer-bottom-nav-link:hover,
+.footer-top-nav-link:hover {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.footer-top-right-link:hover>svg {
+    fill: var(--white-color);
+}
+
+.footer-bottom-location {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+
+.footer-location-label {
+    margin-left: 4px;
+    font-weight: 500;
+}
+
+.footer-bottom-copyright {
+    font-size: 1.2rem;
+    color: #7e7e7e;
+    margin-left: 8px;
+    font-weight: 500;
+    cursor: not-allowed;
+    user-select: none;
+}
+
+.footer-bottom-nav-link {
+    color: #7e7e7e;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
